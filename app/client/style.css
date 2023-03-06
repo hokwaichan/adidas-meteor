@@ -7,22 +7,25 @@
   --matr-navbar-bg-rgb: 236, 236, 236;
 }
 
-/* Change bootstrap variable values.
- See https://getbootstrap.com/docs/5.2/customize/css-variables/
- */
-body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
+#navFont{
+  font-size: small;
+  color:white;
+  font-weight: bold;
 }
 
-/* Set the alert background on the signin and signup pages. */
-#signin-page .alert-light, #signup-page .alert-light {
-  --bs-alert-bg: var(--matr-navbar-bg);
+#footFont{
+  font-size: small;
 }
 
-/* Define custom styles */
-.gray-background {
-  background-color: var(--matr-navbar-bg);
-  color: var(--bs-dark);
-  padding-top: 10px;
-  padding-bottom: 20px;
+.font-size-color{
+  font-size: small;
+  color:black;
+}
+
+.center-item{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
